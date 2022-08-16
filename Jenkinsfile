@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git 'url'
+                git 'https://github.com/bharat-giit/UIapp.git'
             }
         }
         stage ('Stop previous running container'){
